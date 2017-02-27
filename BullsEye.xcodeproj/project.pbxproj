@@ -12,6 +12,7 @@
 		DA3750CB1E623766000BF49F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3750C91E623766000BF49F /* Main.storyboard */; };
 		DA3750CD1E623766000BF49F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3750CC1E623766000BF49F /* Assets.xcassets */; };
 		DA3750D01E623766000BF49F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3750CE1E623766000BF49F /* LaunchScreen.storyboard */; };
+		DA3750D81E64EAE0000BF49F /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3750D71E64EAE0000BF49F /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DA3750CC1E623766000BF49F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA3750CF1E623766000BF49F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA3750D11E623766000BF49F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA3750D71E64EAE0000BF49F /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				DA3750C51E623766000BF49F /* AppDelegate.swift */,
 				DA3750C71E623766000BF49F /* ViewController.swift */,
+				DA3750D71E64EAE0000BF49F /* AboutViewController.swift */,
 				DA3750C91E623766000BF49F /* Main.storyboard */,
 				DA3750CC1E623766000BF49F /* Assets.xcassets */,
 				DA3750CE1E623766000BF49F /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA3750D81E64EAE0000BF49F /* AboutViewController.swift in Sources */,
 				DA3750C81E623766000BF49F /* ViewController.swift in Sources */,
 				DA3750C61E623766000BF49F /* AppDelegate.swift in Sources */,
 			);
