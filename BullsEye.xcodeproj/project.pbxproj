@@ -303,6 +303,7 @@
 				DA3750D61E623766000BF49F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
