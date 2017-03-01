@@ -77,9 +77,6 @@ class ViewController: UIViewController {
 
         present(alert, animated: true, completion: nil)
         score += points
-
-        startNewRound()
-        updateLabels()
     }
     
     @IBAction func sliderMoved(_ slider: UISlider) {
